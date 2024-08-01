@@ -3,6 +3,7 @@ import HellowWorld from './componets/HelloWorld'
 import SayMyName from './componets/SayMyName'
 import Pessoa from './componets/Pessoa'
 import Frase from './componets/Frase'
+import List from './componets/List'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         idade={21} 
         profissao={"Programador"} 
         foto={"https://via.placeholder.com/150"}/>
+      <List />
     </div>
   );
 }
