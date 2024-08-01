@@ -2,6 +2,7 @@ import './App.css';
 import HellowWorld from './componets/HelloWorld'
 import SayMyName from './componets/SayMyName'
 import Pessoa from './componets/Pessoa'
+import Frase from './componets/Frase'
 
 function App() {
 
@@ -9,6 +10,8 @@ function App() {
   return (
     <div className="App">
       <HellowWorld />
+      <Frase />
+      <Frase />
       <SayMyName nome= "Kauan"/>
       <SayMyName nome= {nome}/>
       <Pessoa 
